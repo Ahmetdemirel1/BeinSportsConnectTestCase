@@ -1,0 +1,98 @@
+[
+  {
+    "key": "Subscribe",
+    "value": ".//a[@name='Subscribe']",
+    "type": "xpath"
+  },
+  {
+    "key": "Monthly_Plan_Subscribe",
+    "value": "(.//span[.='Monthly Plan with Two Week Free Trial'])//..//div//a[@data-text='SUBSCRIBE']",
+    "type": "xpath"
+  },
+  {
+    "key": "First_Name",
+    "value": ".//input[@name='FirstName']",
+    "type": "xpath"
+  },
+  {
+    "key": "Last_Name",
+    "value": ".//input[@name='LastName']",
+    "type": "xpath"
+  },
+  {
+    "key": "Email",
+    "value": ".//input[@name='EmailOrPhone']",
+    "type": "xpath"
+  },
+  {
+    "key": "Password",
+    "value": ".//input[@name='Password']",
+    "type": "xpath"
+  },
+  {
+    "key": "Create_Account",
+    "value": ".//input[@data-text='CREATE ACCOUNT']",
+    "type": "xpath"
+  },
+  {
+    "key": "Package_Amount",
+    "value": "(.//span[@class='price fz-14 fw-bold text-center'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Total_Amount",
+    "value": "lblTotalAmount",
+    "type": "id"
+  },
+  {
+    "key": "Pay_Now",
+    "value": ".//input[@name='pay-now']",
+    "type": "xpath"
+  },
+  {
+    "key": "Check_Terms",
+    "value": ".//label[@for='checkTerms']",
+    "type": "xpath"
+  },
+  {
+    "key": "Card_Holders_Name",
+    "value": "Ecom_Payment_Card_Name",
+    "type": "id"
+  },
+  {
+    "key": "Card_Number",
+    "value": "Ecom_Payment_Card_Number",
+    "type": "id"
+  },
+  {
+    "key": "Card_Exp_Date_Month",
+    "value": "Ecom_Payment_Card_ExpDate_Month",
+    "type": "id"
+  },
+  {
+    "key": "Card_Exp_Date_Year",
+    "value": "Ecom_Payment_Card_ExpDate_Year",
+    "type": "id"
+  },
+  {
+    "key": "Card_Verification",
+    "value": "Ecom_Payment_Card_Verification",
+    "type": "id"
+  },
+  {
+    "key": "Payment_Submit",
+    "value": ".//input[@type='submit']",
+    "type": "xpath"
+  },
+  {
+    "key": "Total_Payment_Amount",
+    "value": "(.//td[@class='ncoltxtr']//small)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "Error_Message",
+    "value": ".//td[@class='ncoltxtc']",
+    "type": "xpath"
+  }
+
+]
